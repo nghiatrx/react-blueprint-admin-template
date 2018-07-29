@@ -1,0 +1,35 @@
+.menuComponent {
+  width: 74px;
+  height: 100%;
+  background: #2d2d68;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10000; }
+  .menuComponent ul {
+    list-style-type: none; }
+  .menuComponent .header {
+    background-color: #54569B; }
+    .menuComponent .header a {
+      height: 64px; }
+      .menuComponent .header a img, .menuComponent .header a svg {
+        margin-top: 20px; }
+  .menuComponent .top a {
+    height: 50px; }
+    .menuComponent .top a img, .menuComponent .top a svg {
+      margin-top: 17px; }
+  .menuComponent .header, .menuComponent .top {
+    text-align: center;
+    padding: 0px;
+    margin: 0px; }
+    .menuComponent .header a, .menuComponent .top a {
+      display: block;
+      width: 100%;
+      outline: none; }
+      .menuComponent .header a:hover, .menuComponent .top a:hover {
+        background: #3D4087; }
+  .menuComponent a[aria-current="page"] svg {
+    color: #fff; }
+  .menuComponent .bp3-popover-wrapper, .menuComponent .bp3-popover-target {
+    width: 100%;
+    height: 100%; }
